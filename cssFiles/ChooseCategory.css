@@ -1,0 +1,106 @@
+body {
+  position: relative;
+  background-image: url("../images/categoriesBackground.jpg");
+  background-size: cover;
+}
+h2 {
+  margin-left: 37%;
+  color: rgb(26, 25, 25);
+}
+#footer {
+  position: fixed;
+  margin-left: 46%;
+  bottom: 10px;
+}
+#logout {
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+}
+input {
+  border: none;
+  position: absolute;
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+  font-size: xx-large;
+  color: rgb(26, 25, 25);
+  background-size: cover;
+  transition-duration: 0.5s;
+  
+}
+input:hover{
+  transform: scale(1.15) ;
+}
+
+#laptops {
+  background-color: bisque;
+  font-size: xx-large;
+  left: 180px;
+  top: 85px;
+  
+}
+#laptops:hover {
+  background-image: url("../images/laptop.jpg");
+  color: white;
+  font-weight: bold;
+  padding-top:80px;
+}
+#clothing {
+  background-color: cadetblue;
+  left: 615px;
+  top: 85px;
+}
+#clothing:hover {
+  background-image: url("../images/clothing.jpg");
+  font-weight: bold;
+  padding-top:130px;
+  color:white;
+}
+
+#smartPhones {
+  background-color: darkkhaki;
+  top: 85px;
+  left: 1050px;
+}
+#smartPhones:hover {
+  background-image: url("../images/smartPhone.jpg");
+  color: white;
+  font-weight: bold;
+  padding-top:130px;
+}
+
+#cameras {
+  background-color: darkgrey;
+  left: 180px;
+  top: 395px;
+}
+#cameras:hover {
+  background-image: url("../images/camera.jpg");
+  color: white;
+  font-weight: bold;
+  padding-top:130px;
+}
+#shoes {
+  background-color: rosybrown;
+  left: 615px;
+  top: 395px;
+}
+#shoes:hover {
+  background-image: url("../images/shoes.jpg");
+  color: white;
+  font-weight: bold;
+  padding-top:130px;
+}
+#watches {
+  background-color: olive;
+  top: 395px;
+  left: 1050px;
+}
+#watches:hover {
+  background-image: url("../images/watch.jpg");
+  color: white;
+  font-weight: bold;
+  padding-top:130px;
+}
+

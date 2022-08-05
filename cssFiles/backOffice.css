@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(rgb(214, 214, 214), rgb(97, 97, 218));
+  position: relative;
+}
+#backgroundImg {
+  position: absolute;
+  left: 43%;
+  top: 30%;
+}
+#deleteProduct {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  background-color: lightgray;
+  height: 150px;
+  border-radius: 6px;
+}
+
+#deleteUsers {
+  position: absolute;
+  left: 900px;
+  top: 80px;
+  background-color: lightgray;
+  height: 150px;
+  border-radius: 6px;
+}
+
+#userNav,#orderNav {
+  width: 600px;
+  border-radius: 7px;
+}
+#addProduct {
+  position: absolute;
+  color: white;
+  left: 310px;
+  top: 270px;
+  height: 70px;
+  width: 230px;
+  font-size: 20px;
+  background-color: rgb(41, 214, 41);
+}
+#addProduct:hover {
+  background-color: rgb(39, 187, 39);
+}
+#deleteProducts {
+  position: absolute;
+  color: white;
+  left: 310px;
+  top: 20px;
+  height: 70px;
+  width: 230px;
+  font-size: 20px;
+  background-color: rgb(248, 61, 61);
+}
+#deleteProducts:hover {
+  background-color: rgb(219, 55, 55);
+}
+
+#details {
+  position: absolute;
+  color: white;
+  left: 1100px;
+  top: 270px;
+  height: 70px;
+  width: 230px;
+  font-size: 20px;
+  background-color: rgb(255, 8, 123);
+}
+#details:hover {
+  background-color: rgb(202, 0, 94);
+}
+
+#deleteUser {
+  position: absolute;
+  color: white;
+  left: 1100px;
+  top: 20px;
+  height: 70px;
+  width: 230px;
+  font-size: 20px;
+  background-color: rgb(221, 205, 64);
+}
+#deleteUser:hover {
+  background-color: rgb(182, 169, 51);
+}
+
+#footer {
+  position: fixed;
+  margin-left: 46%;
+  bottom: 10px;
+}
+#logout {
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#productsDiv {
+  position: absolute;
+  left: 20px;
+  top: 330px;
+  height: 350px;
+  width: 800px;
+  background-color: lightgray;
+  border-radius: 6px;
+  border-color: solid 3px blue;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#searchInput,#searchInputOrder {
+  max-width: 150px;
+}
+
+#searchUserInput {
+  max-width: 150px;
+}
+
+nav {
+  width: 800px;
+  border-radius: 7px;
+}
+
+.result {
+  border-bottom: 2px solid;
+}
+caption {
+  caption-side: top;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgba(32, 32, 32, 0.822);
+}
+
+#price,
+#weight,
+#shipping {
+  max-width: 94px;
+  min-width: 94px;
+}
+
+#category {
+  min-width: 100px;
+}
+hr {
+  display: block;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 2px;
+}
+textarea {
+  max-width: 550px;
+}
+#descriptionSpan {
+  width: 100px;
+  color: white;
+  display: block;
+  background-color: #2c3034;
+}
+
+#viewOrders{
+    position: absolute;
+    left: 902px;
+    top: 330px;
+    background-color: lightgray;
+    height: 350px;
+    border-radius: 6px;
+    overflow-y: auto;
+    overflow-x: auto;
+}

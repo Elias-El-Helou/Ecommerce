@@ -1,0 +1,56 @@
+body {
+  position: relative;
+  background-image: url("../images/productsBackground.jpg");
+  background-size: contain;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  padding-left: 10px;
+}
+#productBrand {
+  max-width: 170px;
+  padding-right: 10px;
+}
+
+#searchForm {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+form {
+  color: white;
+}
+
+.sort {
+  margin-left: 110px;
+}
+label {
+  margin-top: 7px;
+}
+#allProducts {
+  height: 620px;
+  margin-left: 40px;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+img{
+    border:solid lightslategray 2px;
+    border-radius:6px;
+}
+
+::-webkit-scrollbar {
+  width: 30px;
+}
+::-webkit-scrollbar-track {
+  border-radius:6px;
+  background-color: lightgray;
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(83, 83, 255);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(45, 45, 253);
+}

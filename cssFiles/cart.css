@@ -1,0 +1,113 @@
+body {
+  position: relative;
+  background-image: url("../images/productsBackground.jpg");
+  background-size: contain;
+}
+
+#allProducts {
+  height: 620px;
+  margin-left: 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 700px;
+  border: solid 3px rgb(138, 138, 138);
+  border-radius:6px;
+}
+
+#verticalLine {
+  border-left: 3px solid rgb(138, 138, 138);
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+h2 {
+  margin-left: 20%;
+}
+
+#information {
+  position: absolute;
+  top: 101px;
+  left: 800px;
+  height: 620px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 700px;
+  border: solid 3px rgb(138, 138, 138);
+  border-radius:6px;
+}
+.information {
+  position: absolute;
+  top: 50px;
+  left: 670px;
+}
+
+.inline {
+  margin-top:30px;
+  display: table;
+  margin-left: 20px;
+  border-collapse: separate;
+  border-spacing: 100px;
+}
+p {
+  display: table-row;
+}
+
+input {
+  max-width: 200px;
+  padding: 20px 0;
+}
+span {
+  display: table-cell;
+  padding-top: 30px;
+}
+
+.span {
+  padding-left: 20px;
+}
+#phone {
+  padding-top:40px;
+}
+#conatiner {
+  margin-left: 30px;
+}
+
+.warner{
+  font-size:13px;
+}
+
+#cost{
+  font-size:25px;;
+}
+
+#warner{
+  font-size:18px;
+  color:rgb(255, 79, 47);
+  font-weight: bold;
+}
+
+.warner{
+  color:rgb(255, 79, 47);
+  font-weight: bold;
+}
+
+#code{
+  max-width: 67px;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+::-webkit-scrollbar-track {
+  border-radius:6px;
+  background-color: lightgray;
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color: indianred;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(201, 34, 34);;
+}
